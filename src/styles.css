@@ -3,6 +3,28 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+    --light-grey: #f4f6f8;
+    --violet: #5964E0;
+    --light-violet: #939BF4;
+    --very-dark-blue: #19202D;
+    --midnight: #121721;
+    --white: #fff;
+    --gray: #9daec2;
+    --dark-grey: #6e8098;
+}
+
+[data-theme="dark"] {
+    --light-grey: #121721;
+    --violet: #5964E0;    
+    --light-violet: #939BF4;
+    --very-dark-blue: #19202D;
+    --midnight: #121721;
+    --white: #fff;
+    --gray: #9daec2;
+    --dark-grey: #6e8098;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,5 +33,5 @@
 }
 
 body{
-    background-color: #f4f6f8;
+    background-color: var(--light-grey);
 }
