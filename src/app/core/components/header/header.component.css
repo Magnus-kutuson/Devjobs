@@ -6,18 +6,18 @@
       align-items: center;
     }
     
-    /* Optional: Style for the switch label */
+   
     .theme-switcher label {
       cursor: pointer;
       font-size: 1rem;
     }
     
-    /* Hide the default checkbox appearance */
+  
     .theme-switcher input[type="checkbox"] {
       display: none;
     }
     
-    /* Create a custom toggle appearance */
+    
     .slider {
       position: relative;
       display: inline-block;
@@ -26,7 +26,7 @@
       background-color: var(--white);
       border-radius: 34px;
       vertical-align: middle;
-      /* margin-left: 10px; */
+ 
       transition: background-color 0.3s;
     }
     
@@ -42,7 +42,7 @@
       transition: transform 0.3s;
     }
     
-    /* Toggle on */
+   
     .theme-switcher input[type="checkbox"]:checked + .slider {
       background-color: var(--white);
     }
