@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { DataService } from '../../services/data/data.service';
 import { CommonModule } from '@angular/common';
+import { Jobs } from '../../Interface/job';
 
 
 @Component({
@@ -10,7 +11,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './jobspage.component.css'
 })
 export class JobspageComponent {
-  jobs: string[] = [];
+  jobs: Jobs[] = [];
 
   constructor(private dataService: DataService) {
   }
