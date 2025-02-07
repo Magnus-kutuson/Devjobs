@@ -14,7 +14,7 @@
     --dark-grey: #6e8098;
 }
 
-[data-theme="dark"] {
+.dark-mode {
     --light-grey: #121721;
     --violet: #5964E0;    
     --light-violet: #939BF4;
