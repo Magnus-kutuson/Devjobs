@@ -5,6 +5,14 @@ import { InputsComponent } from '../inputs/inputs.component';
 @Component({
   selector: 'app-header',
   imports: [InputsComponent],
+
+// import { InputsComponent } from '../inputs/inputs.component';
+import { RouterOutlet } from '@angular/router';
+
+@Component({
+  selector: 'app-header',
+  imports: [ RouterOutlet],
+
   templateUrl: './header.component.html',
   styleUrl: './header.component.css',
 })
