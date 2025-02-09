@@ -5,7 +5,7 @@ import { JobspageComponent } from './core/pages/jobspage/jobspage.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, LayoutComponent,JobspageComponent],
+  imports: [RouterOutlet, JobspageComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
