@@ -1,8 +1,9 @@
-
-<div class="w-[350px] h-[228px] bg-white border-2 border-gray-200 rounded " *ngFor="let job of jobs">
-    <div class="w-[50px] h-[50px] flex justify-center items-center rounded-md "
+<div class=" grid grid-cols-4 gap-4 mt-24">
+    <div class="w-[350px] h-[228px] bg-white border-2 border-gray-200 rounded"  *ngFor="let job of jobs">
+    <div class="w-[50px] h-[50px] flex justify-center items-center rounded-lg" 
     [style.background]="job.logoBackground">
         <img [src]="job.logo" alt="">
     </div>
 <p>{{job.position}}</p>
+</div>
 </div>
