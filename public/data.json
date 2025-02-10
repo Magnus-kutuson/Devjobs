@@ -242,7 +242,7 @@
     "content": "The candidate must have work experience in all aspects of designing and constructing J2EE/EJB systems and developing system requirements and design specifications, and J2EE/EJB Coding for new and existing applications.",
     "items": [
       "Computer Science degree or equivalent",
-      "Experience with EJB, J2EE,Tomcat, JBoss andrelational databases such as MySQL, MSSQL, Oracle",
+      "Experience with EJB, J2EE,Tomcat, JBoss and relational databases such as MySQL, MSSQL, Oracle",
       "At least three years of post-graduate experience",
       "Deep understanding of OO programming principals and commitment to clean, efficient, well documented code."
     ]
@@ -334,7 +334,7 @@
   "apply": "https://example.com/crowdfund/apply",
   "description": "Crowdfund is currently expanding and working on revolutionizing the world of raising funds for any project – creative, entrepreneurial or cause-related. Come and join us in this growth! We are looking for an exceptionally talented Fullstack Developer who will become an integral part of the company’s exciting new chapter.",
   "requirements": {
-    "content": "We'd love to hear from you if you take ownership of your work and continuously want to improve the products you've built. We're looking for developers who have an uncanny abilithy to work very well cross-functionality in a flat startup.",
+    "content": "We'd love to hear from you if you take ownership of your work and continuously want to improve the products you've built. We're looking for developers who have an uncanny ability to work very well cross-functionality in a flat startup.",
     "items": [
       "4+ years of web development experience",
       "Strong CS fundamentals and problem solving skills",
