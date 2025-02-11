@@ -1,6 +1,6 @@
 <div>
     <app-header></app-header>
- <div class=" grid grid-cols-3 gap-6 p-4 border-2 border-red-600 place-items-center m-24">
+ <div class=" grid grid-cols-3 gap-6 p-4  place-items-center m-28">
   <div class="w-[350px] h-[228px] bg-white  rounded-lg p-4 dark:bg-slate-950"  *ngFor="let job of jobs">
     <div class="w-[50px] h-[50px] flex justify-center items-center rounded-lg " 
     [style.background]="job.logoBackground">
@@ -17,6 +17,8 @@
         <p class="text-md text-violet-700">{{job.location}}</p>
    </div>
  </div>
+ <div></div>
+ <button class="w-[150px] h-[48px] text-white bg-violet-600 rounded mt-8">Load</button>
 </div>
 <router-outlet/>
 
