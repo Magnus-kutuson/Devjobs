@@ -1,11 +1,11 @@
 <div>
     <app-header></app-header>
- <div class=" grid grid-cols-3 gap-6 p-4  place-items-center m-28">
+ <div class=" grid grid-cols-3 gap-6 p-4  place-items-center m-32">
   <div class="w-[350px] h-[228px] bg-white  rounded-lg p-4 dark:bg-slate-950"  *ngFor="let job of jobs">
-    <div class="w-[50px] h-[50px] flex justify-center items-center rounded-lg " 
+    <div class="w-[50px] h-[50px] flex justify-center items-center rounded-lg  " 
     [style.background]="job.logoBackground">
-        <img [src]="job.logo" alt="">
-    </div>
+        <img [src]="job.logo" alt="" >
+    </div> 
     <div class="w-[150px] flex justify-between text-gray-500 ">
         <p>{{job.postedAt}}</p>
         <p>.</p>
